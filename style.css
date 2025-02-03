@@ -4,60 +4,24 @@
     box-sizing: border-box;
 }
 
+/* Estilo para el cuerpo */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #333; /* Fondo oscuro */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* 100% de la altura de la pantalla */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Tipografía */
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 1rem;
+/* Contenedor que centra el texto */
+.container {
     text-align: center;
 }
 
-header h1 {
+/* Estilo para el texto */
+h1 {
     font-size: 2rem;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    padding: 2rem;
-    text-align: center;
-}
-
-section {
-    background: white;
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
-}
-
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+    font-weight: bold;
 }
