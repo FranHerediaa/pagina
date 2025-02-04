@@ -4,23 +4,20 @@
     box-sizing: border-box;
 }
 
-/* Estilo para el cuerpo */
 body {
-    background-color: #333; /* Fondo oscuro */
+    background-color: #333;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    height: 100vh; /* 100% de la altura de la pantalla */
-    color: white; /* Texto blanco */
-    font-family: Arial, sans-serif; /* Tipografía */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color: white; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Contenedor que centra el texto */
 .container {
     text-align: center;
 }
 
-/* Estilo para el texto */
 h1 {
     font-size: 2rem;
     font-weight: bold;
